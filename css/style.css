@@ -1,0 +1,1111 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#home header{
+
+}
+
+#home header {
+	margin-bottom: 50px;
+}
+
+#home header .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#home header h1{
+
+}
+
+#home header h1 a{
+
+}
+
+#home header h1 a img{
+	width: 100px;
+
+}
+
+#home header div.left{
+
+}
+
+#home header div.left ul{
+	display: flex;
+	justify-content: center;
+}
+
+#home header div.left ul li{
+	margin-right: 30px;
+}
+
+#home header div.left ul li:last-child{
+	margin-right: 0;
+}
+
+#home header div.left ul li a{
+
+}
+
+#home header div.right{
+
+}
+
+#home header div.right ul {
+	display: flex;
+	justify-content: center;
+}
+
+#home header div.right ul li{
+	margin-right: 20px;
+}
+
+#home header div.right ul li:last-child{
+	margin-right: 0;
+}
+#home header div.right ul li a.button{
+	background: #ffe4da;
+	border-radius: 10px;
+	padding: 10px 10px;	
+	color: #ff794b;
+	
+}
+
+
+#home header div.right ul li a{
+
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+
+#spotlight{
+
+}
+
+#spotlight .wrapper{
+
+}
+
+#spotlight div.top{
+	display: flex;
+}
+
+#spotlight div.top div.left{
+
+}
+
+#spotlight div.top div.left h1{
+	font-size: 57px;
+	font-weight: 700;
+	width: 500px;
+	margin-top: 20px;
+}
+
+#spotlight div.top div.left p{
+	width: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#spotlight div.top div.left form{
+}
+
+#spotlight div.top div.left form input{
+
+}
+
+#spotlight div.top div.left form input[type="email"]{
+	border: #000 1px solid;
+	padding: 9px 9px;
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	
+}
+
+#spotlight div.top div.left form input[type="button"]{
+	background: #0056fb;
+	padding: 10px 10px;
+	border-radius: 10px;
+	height: 50px;
+	margin-left: -25px;
+	color: #fff;
+
+}
+
+#spotlight div.top div.right{
+	width: 52%;
+
+}
+
+#spotlight div.top div.right img{
+	height: 65%;
+}
+
+#spotlight div.bottom{
+	text-align: center;
+}
+
+#spotlight div.bottom p{
+	margin-top: -30px;
+	margin-bottom: 30px;
+
+}
+
+#spotlight div.bottom img{
+	margin-right: 60px;
+	
+}
+#spotlight div.bottom img.img{
+	
+}
+
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#boost{
+	
+}
+
+#boost .wrapper{
+	
+}
+
+#boost ul{
+	margin-top: 100px;
+}
+
+#boost ul li{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+
+	
+}
+
+#boost ul li div.left{
+	width: 50%;
+	
+}
+
+#boost ul li div.left img{
+	width: 500px;
+}
+
+#boost ul li div.right{
+	width: 50%;
+	
+}
+
+#boost ul li div.right img.ink{
+	border-radius: 15px;
+	width: 40px;
+	margin-bottom: 10px;
+}
+
+#boost ul li div.right img{
+	margin-top: -10px;
+}
+#boost ul li div.right h1{
+	font-weight: 600;
+	font-size: 40px;
+	width: 390px;
+	margin-bottom: 15px;
+}
+
+#boost ul li div.right p{
+	width: 390px;
+	/* font-weight: 600; */
+	margin-bottom: 20px;
+  
+} 
+
+#boost ul li div.right p.p{
+	font-style: italic;
+
+	
+}
+#boost ul li div.right p.p span{
+	font-weight: bold;
+}
+
+#boost ul li div.right p.bei{
+	margin-top: 15px;
+	color: #707070;
+}
+
+#boost ul li div.right small{
+	color: #707070;
+	margin-top: 100px;
+	position: relative;
+	top: 10px;
+
+}
+
+#boost ul li div.right a.button{
+	background: #0056fb;
+	padding: 10px 10px;
+	border-radius: 10px;
+	height: 50px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#video{
+	margin-left: 150px ;
+}
+
+#video .wrapper{
+	margin: 0 auto;
+	width: 1200px;	
+}
+
+#video div.top{
+	
+}
+
+#video div.top h1{
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 600px;
+	
+}
+
+#video div.top ul{
+	display: flex;
+	align-items: center;
+}
+
+#video div.top ul li{
+
+}
+#video div.top ul li.last{
+	position: relative;
+	top: 15px;
+}
+
+#video div.top ul li img.review1{
+	border-radius: 8px;
+	width: 300px;
+	
+}
+
+#video div.top ul li img.logo{
+	width: 100px;
+	display: block;
+	position: relative;
+	top: 240px;
+	left: 10px;
+	padding: 15px 15px;
+	background: #fff;
+	border-radius: 16px;
+}
+#video div.top ul li img.logo.NBC{
+	width: 60px;
+}
+
+#video div.top ul li img.nbc{
+	width: 5px;
+}
+
+#video div.top ul li img.play{
+	padding: 15px 15px ;
+	background: #fff;
+	border-radius: 100%;
+	position: relative;
+	top: 120px;
+	right: -250px;	
+}
+
+#video div.top ul li h4{
+	font-weight: 600;
+	margin-top: 20px;
+	width: 300px;
+	margin-right: 50px;
+}
+
+
+
+#video div.bottom{
+	margin-top: 300px;
+}
+
+#video div.bottom ul{
+display: flex;
+
+}
+
+#video div.bottom ul li{
+	margin-right: 100px;
+}
+
+#video div.bottom ul li img{
+	border-radius: 8px;
+
+}
+
+
+#video div.bottom ul li img.manlogo{
+	width: 100px;
+	padding: 15px 15px;
+	background: #fff; 	
+	position: relative;
+	bottom: 70px;
+	left: 10px;
+	border-radius: 8px;
+}
+#video div.bottom ul li img.manlogo.a{
+	width: 70px;
+	padding: 15px 15px;
+}
+
+
+
+#video div.bottom ul li h3{
+
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#video div.bottom ul li p{
+	font-weight: 600;
+}
+
+#video div.bottom ul li p.grey{
+	color: #787878;
+	font-size: 14px;
+}
+
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+#marketing{
+	margin-top: 200px;
+}
+#marketing .wrapper {
+    text-align: center;
+    padding: 50px 20px;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#marketing h1 {
+    font-size: 60px;
+    font-weight: 900;
+	width: 700px;
+	text-align: center;
+    margin-bottom: 100px;	
+
+}
+
+#marketing div.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+#marketing div.grid div.top {
+	margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+    padding: 0 20px;
+    position: relative;
+}
+
+#marketing div.grid div.top ul {
+	 
+    padding: 0;
+    margin: 0;
+    display: contents;
+}
+
+#marketing div.grid div.top ul li {
+	
+    text-align: center;
+    padding: 0 20px;
+    border-right: 1px dashed #ddd;
+    position: relative;
+	margin: 0 auto	;
+}
+
+#marketing div.grid div.top ul li:nth-child(3n){
+    border-right: none;
+}
+
+#marketing div.grid div.top ul li img {
+    width: 300px;
+    margin-bottom: 20px;
+	padding-top: 50px;
+}
+
+#marketing div.grid div.top ul li h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#marketing div.grid div.top ul li p {
+	align-items: center;
+	width: 300px;
+	text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+	padding-bottom: 85px;
+    line-height: 1.5;
+    /* margin-bottom: 50px; */
+}
+
+#marketing div.grid div.bottom {
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    background: #d0dfff;
+    width: 500px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#marketing div.grid div.bottom img.star {
+    position: relative;
+    bottom: 50px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+#marketing div.grid div.bottom p {
+    font-weight: 600;
+    width: 300px;
+    padding-left: 10px;
+    text-align: left;
+    position: absolute;
+}
+
+#marketing div.grid div.bottom a.button {
+    background: #0056fb;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 50px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#baner{
+	margin-top: 200px;
+}
+
+#baner .wrapper{
+	width: 1200px;	
+	
+}
+
+#baner h1 {
+	font-size: 30px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+#baner ul {
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+#baner ul li{
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+	border-radius: 8px;
+}
+
+#baner ul li:first-child{
+	background: #d0dfff;
+	border-radius: 4px;
+}
+
+#baner ul li:nth-child(2){
+	background: #fef4d7;
+	
+}
+#baner ul li:last-child{
+	background: #ffe4da;
+	margin-right: 0;
+}
+
+
+
+#baner ul li img.logo{
+	padding: 15px ;
+	margin-top: 50px;
+	background: #fff;
+	border-radius: 30%;
+	margin-bottom: 30px;
+}
+
+#baner ul li h1{
+	margin-bottom:30px;
+}
+
+#baner ul li p{
+	font-weight: 600;
+	width: 230px;
+	text-align: center;
+}
+
+#baner ul li a.button{
+	background: #0056fb;
+	padding: 10px 20px;
+	border-radius: 10px;
+	height: 50px;
+	color: #fff;
+	font-weight: 600;
+	display:flex;
+	align-items: center;
+	margin: 30px;
+}
+#baner ul li a.button2{
+	background: #ffc836;
+	padding: 10px 20px;
+	border-radius: 10px;
+	height: 50px;
+	color: #fff;
+	font-weight: 600;
+	display:flex;
+	align-items: center;
+	margin: 30px;
+}#baner ul li a.button3{
+	background: #ff794b;
+	padding: 10px 20px;
+	border-radius: 10px;
+	height: 50px;
+	color: #fff;
+	font-weight: 600;
+	display:flex;
+	align-items: center;
+	margin: 30px;
+}
+#baner ul li img{
+
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#life{
+
+}
+
+#life .wrapper{
+	width: 1200px;	
+
+}
+
+#life div.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#life div.content h1{
+	width: 500px;
+	margin-right: 700px;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	margin-top: 150px;
+}
+
+#life div.content ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+#life div.content ul li{
+	margin-right: 30px;
+}
+
+#life div.content ul li img{
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+#life div.content ul li img.img1{
+	height: 280px;
+}
+#life div.content ul li small{
+	font-weight: 500;
+	margin-bottom: 10px;
+
+}
+#life div.content ul li small.blue{
+	color: #0056fb;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+#life div.content ul li p{
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#life div.content ul li a.button{
+	font-weight: 600;
+	border-bottom: solid 1px #000;
+}
+
+#life div.content a.butto{
+	padding: 15px;
+	background: #0056fb;
+	color: #fff; 	
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	 
+	
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+#form{
+	background: #000;
+	color: #fff;
+}
+
+#form .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;	
+	
+}
+
+#form div.left{
+	width: 40%;
+}
+
+#form div.left h1{
+	font-size: 50px;
+	width: 350px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+#form div.left p{
+	color: #9b9b9b;
+	margin-bottom: 20px;
+
+}
+#form div.left p.italic{
+	margin-top: 30px;
+	color: #cccccc;
+	font-style: italic;
+	margin-bottom: 20px;
+
+}
+
+#form div.left h4{
+	font-weight: 600;
+}
+
+#form div.left ul{
+	display: flex;
+}
+
+#form div.left ul li{
+	margin-right: 10px;
+}
+#form div.left h4{
+	margin-top: 10px;
+}
+
+#form div.left ul li img{
+	border-radius: 50px;
+}
+
+#form div.left ul.logo{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#form div.left ul.logo li{
+	margin-right: 30px;
+}
+
+#form div.left ul li img.logo{
+	border-radius: 0;
+	
+}
+
+#form div.right{
+	background: #fff;
+	margin-left: 150px;
+	height: 450px;
+	width:750px;
+	border-radius: 8px;
+	
+}
+
+#form div.right h1{
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+#form div.right form{
+	margin-left: 50px;
+	display: flex;
+	justify-content: center;
+	/* display: block; */
+	width: 500px;
+}
+
+#form div.right form input{
+	border: #9c9c9c 2px solid;
+	border-radius: 4px;
+	width: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 40px;
+	display: flex;
+}
+#form div.right div.select{
+	display: flex;
+	justify-content: center;
+	
+}
+#form div.right div.select div.top{
+	
+}
+#form div.right div.select div.dwon {
+	display: flex;
+
+}
+#form div.right div.select div.top select#sel{
+	display: flex;
+	border: #9c9c9c 2px solid;
+	border-radius: 4px;
+	width: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 40px;
+	color: #9B9B9B;
+}
+#form div.right div.select div.down select#sel{
+	display: flex;
+	border: #9c9c9c 2px solid;
+	border-radius: 4px;
+	width: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 40px;
+	color: #9B9B9B;
+
+}
+#form div.right div.cbox{
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	width: 550px;
+	margin-top: 20px;
+}
+
+#form div.right input[type="checkbox"]{
+	margin-left: 50px;
+	margin-right: 10px;
+
+}
+#form div.right label{
+	color: #777777 ;
+	text-align: left;
+	width: ;
+}
+#form div.right a.button{
+	padding: 15px 210px;
+	background: #0056fb;
+	color: #fff; 	
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	 position: relative;
+	 top: 50px;
+	 left: 45px;
+
+}
+
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+footer div.left{
+	margin-right: 100px;
+}
+
+footer div.left h3{
+	width: 260px;
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+footer div.left img{
+	padding: 15px;
+	background: #f0f0f0;
+	border-radius: 8px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+footer div.left img.globel{
+	background: #f0f0f000;
+	position: relative;
+	top: 40px;
+	right: 10px;
+
+}
+
+footer div.left p{
+	margin-right: 10px;
+
+}
+footer div.left div.p{
+	display: flex;	
+}
+
+footer div.left p.choos{
+	margin-left: 35px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+footer div.right{
+	display: flex;
+
+}
+
+footer div.right div.item{
+
+}
+footer div.right div.item h2{
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+footer div.right div.item ul{
+
+}
+
+footer div.right div.item ul li small{
+	font-weight: 600;
+}
+
+footer div.right div.item ul li{
+	margin-bottom: 10px;
+	margin-right: 50px;
+	font-weight: 600;
+}
+
+footer div.right div.item ul li img{
+	width: 20px;
+	margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
